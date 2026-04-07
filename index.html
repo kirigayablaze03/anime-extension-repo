@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aniyomi Custom Repo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
+    code, pre { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    pre { padding: 12px; overflow: auto; }
+    a { color: #0b57d0; }
+  </style>
+</head>
+<body>
+  <h1>Aniyomi Custom Repo</h1>
+  <p>This static site hosts a small custom extension repo for testing.</p>
+  <p>Repository JSON:</p>
+  <pre><code id="repo-url"></code></pre>
+  <p>Direct links:</p>
+  <ul>
+    <li><a href="repo/index.json">repo/index.json</a></li>
+    <li><a href="repo/index.min.json">repo/index.min.json</a></li>
+    <li><a href="repo/apk/aniyomi-all.desidubanime-v14.1-debug.apk">DesiDubAnime APK</a></li>
+    <li><a href="repo/apk/aniyomi-en.animetsu-v14.10-debug.apk">Animetsu APK</a></li>
+  </ul>
+  <script>
+    document.getElementById('repo-url').textContent = location.origin + location.pathname.replace(/\/?$/, '/') + 'repo/index.min.json';
+  </script>
+</body>
+</html>
