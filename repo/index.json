@@ -1,0 +1,84 @@
+[
+    {
+        "name":  "Aniyomi: DesiDubAnime",
+        "pkg":  "eu.kanade.tachiyomi.animeextension.all.desidubanime",
+        "apk":  "aniyomi-all.desidubanime-v14.1-debug.apk",
+        "lang":  "all",
+        "code":  1,
+        "version":  "14.1",
+        "nsfw":  0,
+        "sources":  [
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "all",
+                            "id":  "-5886869220302499905",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "bn",
+                            "id":  "1676646918929681604",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "en",
+                            "id":  "-7637736119970624232",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "hi",
+                            "id":  "-587420730237922270",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "ja",
+                            "id":  "-6997711957797280255",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "ml",
+                            "id":  "-7686266318483632314",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "kn",
+                            "id":  "-7151224924351545565",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "ta",
+                            "id":  "-1169912955339806436",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        },
+                        {
+                            "name":  "DesiDubAnime",
+                            "lang":  "te",
+                            "id":  "3488289186233591851",
+                            "baseUrl":  "https://www.desidubanime.me"
+                        }
+                    ]
+    },
+    {
+        "name":  "Aniyomi: Animetsu",
+        "pkg":  "eu.kanade.tachiyomi.animeextension.en.animetsu",
+        "apk":  "aniyomi-en.animetsu-v14.10-debug.apk",
+        "lang":  "en",
+        "code":  10,
+        "version":  "14.10",
+        "nsfw":  0,
+        "sources":  [
+                        {
+                            "name":  "Animetsu",
+                            "lang":  "en",
+                            "id":  "5768179973708184762",
+                            "baseUrl":  "https://animetsu.live"
+                        }
+                    ]
+    }
+]
